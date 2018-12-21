@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>style1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style1.css" />
+	<style type="text/css">
+    body {background: #ffffff url(http://pcvector.net/templates/pcv/images/bg_grid.png);}
+	h2	{clear:both;padding-top:20px;}
+	ul {list-style:none;margin:0;padding:0;}
+	li {float:left;width:100px;margin:0;padding:0;text-align:center;}
+	li a {display:block;padding:5px 10px;height:100%;color:#FFF;text-decoration:none;border-right:1px solid #FFF;}
+	li a {background:url(images/bg2.jpg) repeat 0 0;}
+	li a:hover, li a:focus, li a:active {background-position:-150px 0;}
+	#a a {background:url(images/bg.jpg) repeat -20px 35px;}
+	#b a {background:url(images/bg2.jpg) repeat 0 0;}
+	#c a {background:url(images/bg3.jpg) repeat 0 0;}
+	#d a {background:url(images/bg4.jpg) repeat 0 0;}
+</style>
+
+			 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+             <script type="text/javascript" src="anmenu.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+	$('#a a')
+		.css( {backgroundPosition: "-20px 35px"} )
+		.mouseover(function(){
+			$(this).stop().animate({backgroundPosition:"(-20px 94px)"}, {duration:500})
+		})
+		.mouseout(function(){
+			$(this).stop().animate({backgroundPosition:"(40px 35px)"}, {duration:200, complete:function(){
+				$(this).css({backgroundPosition: "-20px 35px"})
+			}})
+		})
+	$('#b a')
+		.css( {backgroundPosition: "0 0"} )
+		.mouseover(function(){
+			$(this).stop().animate({backgroundPosition:"(-150px 0)"}, {duration:500})
+		})
+		.mouseout(function(){
+			$(this).stop().animate({backgroundPosition:"(-300px 0)"}, {duration:200, complete:function(){
+				$(this).css({backgroundPosition: "0 0"})
+			}})
+		})
+	$('#c a')
+		.css( {backgroundPosition: "0 0"} )
+		.mouseover(function(){
+			$(this).stop().animate({backgroundPosition:"(0 -250px)"}, {duration:500})
+		})
+		.mouseout(function(){
+			$(this).stop().animate({backgroundPosition:"(0 0)"}, {duration:500})
+		})
+	$('#d a')
+		.css( {backgroundPosition: "0 0"} )
+		.mouseover(function(){
+			$(this).stop().animate({backgroundPosition:"(0 -250px)"}, {duration:500})
+		})
+		.mouseout(function(){
+			$(this).stop().animate({backgroundPosition:"(0 0)"}, {duration:500})
+		})
+});
+</script>
+	 <style>
+   table {
+    width: 100%; /* Ширина таблицы */
+   }
+   td {
+    padding: 5px; /* Поля в ячейках */
+    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+   }
+   .col1 { background: #ccc; }
+   .col2 { background: #ffd; }
+  </style>
+</head>
+<body>
+    <div id="header-left" onclick="location.href='index.html';""></div>
+	 <div id="header-leftt" ></div>
+	 
+	 <div id="header-right" align="center">
+	 <div id="c">
+		<font face="century gothic"><font color=" #000000" size="3"face="century gothic">	<a href="#"  title=""><b>покупка оптом </b> </a>
+			<a href="#"  title="">выгодно  </a>
+			<a href="#"  title="">контакты  </a>
+			<a href="#"  title="">о нас  </a>
+			<a href="#"  title="">корзина </a></center>
+			</div>
+	
+    <div id="header-right" align="center">
+			</div>
+		
+	
+	
+    <table id="menu"   > 
+	
+	<tr>
+	<td width="94" height="40" bgcolor="LawnGreen"><font color=" #000000" size="4"face="century gothic" ><p align="center"><b>цена за 1шт</b></td></tr></p>
+	
+	
+	<td width="94" height="287" > 	<p><style>
+
+a.button11 {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 125%;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .25em .5em;
+}
+a.button11:after {
+  content: "Купить";  
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  width: calc(100% + 6*(1em*90/135) - 2px*2*2);  /* где 6*(1em*90/135), где 6 - это 6 букв, 90 - это font-size after, а 135 - это font-size родителя */
+  text-align: right;
+  color: #000000;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(Lime, Lime) no-repeat 100% 0;
+  background-size: calc(6*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  transition: .3s;
+}
+a.button11:hover:after {
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button11:active:after {
+  background-image: linear-gradient(ForestGreen, ForestGreen);
+}
+
+
+</style><p align ="center" >
+    <a href="#" class="button11"> 310</a></td>
+	
+	
+	</p>
+	
+	</table>
+	
+	
+         <div id="block1"></div>
+		 <div id="block2"></div> 
+		 <table id="stolb" >
+		 <tr>
+		 <td width="94" height="40" bgcolor="LawnGreen"> <font color=" #000000" size="4"face="century gothic" ><p align="center"> <b>описание продута </b></td></tr></p>
+	<td width="94" height="287" ><p>
+	
+	<b>Да Хун Пао "Большой Красный Халат"</b></br><p></br>
+	Да Хун Пао - "Большой Красный Халат" – прожаренный ("темный")</BR> 
+
+Чайный лист крупный, цельный, чистый. Прожарка средняя, что отлично</BR> балансирует вкусовые оттенки - не слишком резко и не слишком "нежно".
+
+Аромат: в сухом листе: нотки орехов, карамели и медовой сладости, </BR> В прогретом листе преобладает аромат запеченных яблок с мёдом, </BR>ванильного сахара, карамельных леденцов. При остывании можно уловить хлебные оттенки.
+
+Настой: тёмно-жёлтый, коричневый 
+
+
+	
+	
+		 
+    </table>
+	
+
+	
+	
+	
+	
+	
+    <table id="content" >
+	<tr>
+	<td width="94" height="40" bgcolor="LawnGreen"><font color=" #000000" size="4"face="century gothic" ><p align="center"><b>товар </b></td></tr></p>
+	<td> <p align="center"><img src='\Работы студентов СПО\Работы студентов ОИ\15ОИ\a10-Закомолдина Анна\УП.02.01\чай\картинки\4.jpg'width="252" height="252" alt="чай"></p></td>
+	
+	
+	</table>
+	
+	
+      </div> </div>
+
+	  
+    <div id="footer-left"> </div>
+    <div id="footer-right"> </div></br>
+	 <div id="dno"><font color=" #000000" size="2"face="century gothic"></br> &nbsp; Разработчик: Студентка группы 15-ОИ Закомолдина А.В.</br>
+ &nbsp;  КГАПОУ «Пермский краевой колледж «Оникс» </br>
+ &nbsp; Пермь 2018 </div>
+
+
+</body>
+</html>
